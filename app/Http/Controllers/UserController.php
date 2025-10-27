@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    function index(request $request) {
-       return view('user.shop', compact('products'));
+    function index() {
+       return view('shop');
     }
 }
